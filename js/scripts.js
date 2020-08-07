@@ -17,18 +17,19 @@ function active_products(){
     contacts_li.classList.remove('active_item');
     home_li.classList.remove('active_item');
     products_li.classList.add('active_item');
-    
+    menu.classList.add('hidden');
 }
 
 function active_home(){
     contacts_li.classList.remove('active_item');
     products_li.classList.remove('active_item');
     home_li.classList.add('active_item');
-    
+    menu.classList.add('hidden');
 }
 
 function active_contacts(){
     home_li.classList.remove('active_item');
     products_li.classList.remove('active_item');
     contacts_li.classList.add('active_item');
+    menu.classList.add('hidden');
 }
